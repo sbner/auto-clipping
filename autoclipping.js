@@ -10,6 +10,7 @@ A primeira notícia sempre começará com "tr[11]" e as próximas serão os núm
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
+//Modificar data da url para o dia do clipping exemplo: "jan1_2021, fev13_2021". O resto do url deve ser mantido inalterado.
 const url = 'http://www.autohonda.net/informativos/dez7_2020.htm';
 const newsNumber = 5;
 
